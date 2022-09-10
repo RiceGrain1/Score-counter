@@ -1,0 +1,29 @@
+/*Cursed Timer ULIL font for score box*/
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+                
+body {
+    margin: 0px;
+    background: #1B244A;
+
+}
+
+.txt-style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.main-ctn {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-box {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
