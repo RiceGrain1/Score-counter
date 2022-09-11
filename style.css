@@ -1,6 +1,6 @@
 /*Cursed Timer ULIL font for score box*/
 @import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
-                
+
 body {
     margin: 0px;
     background: #1B244A;
@@ -20,10 +20,46 @@ body {
 .main-ctn {
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
+}
+
+.score-box-txt {
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .score-box {
+    background-color: black;
+    border-radius: 5px;
+
+
+}
+
+#home {
+    width: 147.938px;
+}
+
+
+.point-ctn {
+    margin-top: 26px;
+    display: flex;
+    justify-content:
+}
+
+.point-txt {
+    color: white;
     font-family: 'Cursed Timer ULiL', sans-serif;
-                                                
+}
+
+.point {
+    border: solid white 1px;
+    padding: 8px;
 }
