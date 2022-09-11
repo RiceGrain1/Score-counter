@@ -51,15 +51,20 @@ body {
 .point-ctn {
     margin-top: 26px;
     display: flex;
-    justify-content:
+    justify-content: space-between;
 }
 
 .point-txt {
-    color: white;
+    color: #9AABD8;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
 .point {
     border: solid white 1px;
-    padding: 8px;
+    padding: 6px;
+    border-radius: 5px;
+    
 }
+
