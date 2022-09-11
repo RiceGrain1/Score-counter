@@ -59,12 +59,23 @@ body {
     font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 18px;
     text-align: center;
+    font-weight: 400;
 }
 
 .point {
-    border: solid white 1px;
+    border: solid #9AABD8 2px;
     padding: 6px;
     border-radius: 5px;
     
 }
 
+button {
+    background: transparent;
+}
+
+button:hover {
+    background: #f94f6e8f;
+
+    ;
+    transition: 200ms;
+}
