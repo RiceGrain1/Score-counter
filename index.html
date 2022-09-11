@@ -14,10 +14,10 @@
         <div class="home-ctn">
             <h1 id="home" class="txt-style">HOME </h1>
             <div class="score-box">
-                <div class="score-box-txt">0</div>
+                <div id="home-score" class="score-box-txt">0</div>
             </div>
             <div class="point-ctn">
-                <button type="button" class="point point-txt">+1</button> 
+                <button onclick="addOne(home)" type="button" class="point point-txt">+1</button> 
                 <button type="button" class="point point-txt">+2</button>
                 <button type="button" class="point point-txt">+3</button>
             </div>
@@ -25,10 +25,10 @@
         <div class="guest-ctn">
             <h1 class="txt-style">GUEST</h1>
             <div class="score-box">
-                <div class="score-box-txt">0</div>
+                <div id="guest-score" class="score-box-txt">0</div>
             </div>
             <div class="point-ctn">
-                <button type="button" class="point point-txt">+1</button> 
+                <button  onclick="addOne(guest)" type="button" class="point point-txt">+1</button> 
                 <button type="button" class="point point-txt">+2</button>
                 <button type="button" class="point point-txt">+3</button>
             </div>
