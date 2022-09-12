@@ -79,3 +79,13 @@ button:hover {
     ;
     transition: 200ms;
 }
+
+.reset-btn  {
+    background: darkred;
+    flex-grow: 1;
+}
+
+.reset-btn-txt {
+    color: white;
+    text-align: center;
+}

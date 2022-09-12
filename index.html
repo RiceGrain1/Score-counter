@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Board</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -17,10 +18,13 @@
                 <div id="home-score" class="score-box-txt">0</div>
             </div>
             <div class="point-ctn">
-                <button onclick="addOne(home)" type="button" class="point point-txt">+1</button> 
+                <button onclick="addOne(home)" type="button" class="point point-txt">+1</button>
                 <button onclick="addTwo(home)" type="button" class="point point-txt">+2</button>
-                <button type="button" class="point point-txt">+3</button>
+                <button onclick="addThree(home)" type="button" class="point point-txt">+3</button>
             </div>
+            <button id="reset-button" onclick="resetCounter(home)" class="reset-btn" type="button">
+                <div class="reset-btn-txt">Reset HOME counter</div>
+            </button>
         </div>
         <div class="guest-ctn">
             <h1 class="txt-style">GUEST</h1>
@@ -28,13 +32,16 @@
                 <div id="guest-score" class="score-box-txt">0</div>
             </div>
             <div class="point-ctn">
-                <button  onclick="addOne(guest)" type="button" class="point point-txt">+1</button> 
-                <button onclick="addTwo(guest)"type="button" class="point point-txt">+2</button>
-                <button type="button" class="point point-txt">+3</button>
+                <button onclick="addOne(guest)" type="button" class="point point-txt">+1</button>
+                <button onclick="addTwo(guest)" type="button" class="point point-txt">+2</button>
+                <button onclick="addThree(guest)" type="button" class="point point-txt">+3</button>
             </div>
+            <button id="reset-button" onclick="resetCounter(guest)" class="reset-btn" type="button">
+                <div class="reset-btn-txt">Reset HOME counter</div>
         </div>
     </div>
 </body>
-<script src="index.js"></script>
+<script src="/JS/index.js"></script>
+<script src="/JS/Point Giver.js"></script>
 
 </html>
