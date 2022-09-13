@@ -67,3 +67,20 @@ function resetCounter(team) {
    }
 }
 
+
+//Highlight current winning team
+//Implement alternative to onclick="" in the html
+//Use an event listener to do this
+//https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+//https://developer.mozilla.org/en-US/docs/Web/Events
+function highlightWinner() {
+   if (homeScore > guestScore) {
+   homeScoreEl.classList.add("glowing-border") 
+   guestScoreEl.classList.remove("glowing-border")
+}
+else if (homeScore < guestScore) {
+      guestScoreEl.classList.add("glowing-border")
+      homeScoreEl.classList.remove("glowing-border")
+   }
+}
+

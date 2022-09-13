@@ -33,12 +33,15 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    transition: all 700ms ease-in;
 }
 
 .score-box {
     background-color: black;
     border-radius: 5px;
-
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
 
 }
 
@@ -65,7 +68,7 @@ body {
     border: solid #9AABD8 2px;
     padding: 6px;
     border-radius: 5px;
-    
+
 }
 
 button {
@@ -79,9 +82,9 @@ button:hover {
     transition: 200ms;
 }
 
-.reset-btn  {
+.reset-btn {
     background: darkred;
-   margin-right: 0;
+    margin-right: 0;
 }
 
 .reset-btn-txt {
@@ -98,4 +101,11 @@ button:hover {
 .guest-ctn {
     display: flex;
     flex-direction: column;
+}
+
+.glowing-border { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 30px #ffee00;
+    transition: 1000ms;
 }
