@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Board</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/button.css">
 
 </head>
 
@@ -22,8 +23,7 @@
                 <button onclick="addTwo(home)" type="button" class="point point-txt">+2</button>
                 <button onclick="addThree(home)" type="button" class="point point-txt">+3</button>
             </div>
-            <button id="reset-button" onclick="resetCounter(home)" class="reset-btn" type="button">
-                <div class="reset-btn-txt">Reset HOME counter</div>
+            <button onclick="resetCounter(home)" class="button-24" role="button">Reset</button>
             </button>
         </div>
         <div class="guest-ctn">
@@ -36,8 +36,7 @@
                 <button onclick="addTwo(guest)" type="button" class="point point-txt">+2</button>
                 <button onclick="addThree(guest)" type="button" class="point point-txt">+3</button>
             </div>
-            <button id="reset-button" onclick="resetCounter(guest)" class="reset-btn" type="button">
-                <div class="reset-btn-txt">Reset HOME counter</div>
+            <button onclick="resetCounter(guest)"class="button-24" role="button">Reset</button>
         </div>
     </div>
 </body>
