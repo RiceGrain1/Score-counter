@@ -18,12 +18,12 @@
             <div class="score-box">
                 <div id="home-score" class="score-box-txt">0</div>
             </div>
-            <div class="point-ctn">
+            <div id="point-ctn" class="point-ctn">
                 <button onclick="addOne(home);highlightWinner()" type="button" class="point point-txt">+1</button>
-                <button onclick="addTwo(home)" type="button" class="point point-txt">+2</button>
-                <button onclick="addThree(home)" type="button" class="point point-txt">+3</button>
+                <button onclick="addTwo(home);highlightWinner()" type="button" class="point point-txt">+2</button>
+                <button onclick="addThree(home);highlightWinner()" type="button" class="point point-txt">+3</button>
             </div>
-            <button onclick="resetCounter(home)" class="button-24" role="button">Reset</button>
+            <button onclick="resetCounter(home);highlightWinner()" class="button-24" role="button">Reset</button>
             </button>
         </div>
         <div class="guest-ctn">
@@ -33,14 +33,13 @@
             </div>
             <div class="point-ctn">
                 <button onclick="addOne(guest);highlightWinner()" type="button" class="point point-txt">+1</button>
-                <button onclick="addTwo(guest)" type="button" class="point point-txt">+2</button>
-                <button onclick="addThree(guest)" type="button" class="point point-txt">+3</button>
+                <button onclick="addTwo(guest);highlightWinner()" type="button" class="point point-txt">+2</button>
+                <button onclick="addThree(guest);highlightWinner()" type="button" class="point point-txt">+3</button>
             </div>
-            <button onclick="resetCounter(guest)" class="button-24" role="button">Reset</button>
+            <button onclick="resetCounter(guest);highlightWinner()" class="button-24" role="button">Reset</button>
         </div>
     </div>
 </body>
 <script src="/JS/index.js"></script>
-<script src="/JS/Point Giver.js"></script>
 
 </html>

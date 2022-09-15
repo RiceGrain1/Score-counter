@@ -33,12 +33,14 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    /*This gives the boxes the load in animation*/
     transition: all 700ms ease-in;
 }
 
 .score-box {
     background-color: black;
     border-radius: 5px;
+    /*This is giving white glow around boxes*/
     outline: none;
     border-color: #ffffff;
     box-shadow: 0 0 20px #ffffff;
@@ -103,9 +105,9 @@ button:hover {
     flex-direction: column;
 }
 
-.glowing-border { 
+.glowing-border {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 30px #ffee00;
-    transition: 1000ms;
+    transition: 500ms;
 }
